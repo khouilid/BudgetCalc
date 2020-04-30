@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:500,700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="head">
+        <div class="totale">
+            <p>Available Budget in March 2020: </p>
+            <h1 class="Global_mony"><span id="Global">00</span>DH</h1>
+        </div>
+        <div class="tota_expo">
+            <div class="tota_income">
+                <div>
+                    <h3>Income</h3>
+                </div>
+                <div>
+                    <h3>+<span id="inc_bud"> 00</span> DH</h3>
+                </div>
+            </div>
+            <div class="tota_expence">
+                <div>
+                    <h3>Expence</h3>
+                </div>
+                <div>
+                    <h3>-<span id="inc_exp"> 00</span> DH</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="inputs">
+        <div class="input_operation">
+            <select name="" id="type">
+                <option value="inc">+</option>
+                <option value="exp">-</option>
+            </select>
+        </div>
+        <div class="input_disc">
+            <input id="discription" type="text" placeholder="Add description">
+        </div>
+        <div class="input_Value">
+            <input id="value" type="text" placeholder="Value">
+        </div>
+
+
+    </div>
+    <div class="contianer" id="contianer">
+        <div class="inc" id="incomes">
+            <div class="inc_title">
+                <h2 class="inc_color">INCOME</h2>
+            </div>
+            <!-- <div class="inc_info" id="income_%id%">
+                <div>
+                    <p>%description%</p>
+                </div>
+                <div class="inc_val">
+                    <div>
+                        <p class="inc_color"><span>+ %value%</span>DH</p>
+                    </div>
+                    <div> <img class="delet_btn" src="Delet_btn.svg" alt=""></div>
+                </div>
+
+            </div> -->
+        </div>
+        <div class="exp" id="expences">
+            <div>
+                <h2 class="exp_color">EXPENCE</h2>
+            </div>
+            <!-- <div class="exp_info" id="expence_%id%">
+                <div>
+                    <p>%description%</p>
+                </div>
+                <div class="inc_val">
+                    <div>
+                        <p class="exp_color"><span>- %value%</span>DH</p>
+                    </div>
+                    <div> <img class="delet_btn" src="Delet_btn.svg" alt=""></div>
+                </div>
+            </div> -->
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+    <script src="Scripte.js"></script>
+</body>
+
+</html>
